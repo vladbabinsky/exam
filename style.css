@@ -322,50 +322,38 @@ span {
 @media (max-width: 480px) {
     .book-card, .reader-card, .card-item {
         width: 100%;
-        margin: 5px 0;
+        margin: 10px 0;
     }
 
     .tab-button {
-        font-size: 14px;
-        padding: 8px 10px;
+        font-size: 16px;
+        padding: 10px 12px;
     }
 
     .title {
-        font-size: 28px;
-    }
-    
-    .reader-section h2 {
-        font-size: 24px;
-    }
-    
-    .reader-section p {
-        font-size: 14px;
+        font-size: 1.8rem;
     }
 
-    .card-image {
-        width: 70px;
-    }
-
-    .book-image {
-        max-width: 120px;
-    }
-
-    input[type="text"], select {
-        width: 100%;
-        padding: 10px;
-    }
-
-    button {
-        font-size: 14px;
-        padding: 10px;
+    .book-card, .reader-card {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     .reader-list li {
-        padding: 8px;
+        font-size: 14px;
+        padding: 12px;
     }
 
-    .Makaka {
-        max-width: 100%;
-        height: auto;
+    input[type="text"], select, button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Більші відступи для комфортного читання */
+    .book-grid, .reader-grid {
+        gap: 15px;
+    }
+
+    main {
+        padding: 20px;
     }
 }
